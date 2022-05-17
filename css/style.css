@@ -7,6 +7,13 @@
 body {
     background-color: #1F2630;
 }
+
+hr {
+	text-align: center;
+    border: 0;
+	border-top: 1px solid #ffffff;
+}
+
 #navbar-sombra {
     box-shadow: 2px 2px 8px rgb(0, 0, 0);
 }
@@ -52,12 +59,12 @@ body {
 }
 
 #sobre-major {
-    text-align: right;
+    text-align: center;
 }
 
 #txt-major{
     color: whitesmoke;
-    text-align: right;
+    text-align: center;
 
 }
 
@@ -65,4 +72,26 @@ body {
     text-align: center;
     margin-top: 16px;
     border-radius: 10px;
+}
+
+#container-surgimento {
+    margin-top: 40px;
+}
+
+#titulo-surgimento {
+    text-align: center;
+
+}
+
+#txt-surgimento {
+    color: whitesmoke;
+    text-align: justify;
+}
+
+#foto-surgimento {
+    margin-top: 40px;
+}
+
+#baixo-foto {
+    color: whitesmoke;
 }
