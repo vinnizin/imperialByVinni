@@ -4,6 +4,65 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+body {
+    background-color: #1F2630;
+}
 #navbar-sombra {
-    box-shadow: -10px 2px 8px rgb(0, 0, 0);
+    box-shadow: 2px 2px 8px rgb(0, 0, 0);
+}
+
+#banner-principal {
+    box-shadow: 2px 2px 8px rgb(0, 0, 0);
+}
+
+.titulos {
+    color: whitesmoke;
+    margin-top: 50px;
+    font-size: 80px;
+    
+}
+
+#txt-last {
+    color: whitesmoke;
+    text-align: justify;
+    margin-right: 40px;
+}
+
+#txt-last2 {
+    color: whitesmoke;
+    text-align: justify;
+    margin-top: 60px;
+    margin-left: 40px
+}
+
+#titulo-jogadores {
+    text-align: center;
+}
+
+.txt-card {
+    color: whitesmoke;
+}
+
+#container-baixo {
+    margin-top: 40px;
+}
+
+#container-baixo2 {
+    margin-top: 40px;
+}
+
+#sobre-major {
+    text-align: right;
+}
+
+#txt-major{
+    color: whitesmoke;
+    text-align: right;
+
+}
+
+#video-major {
+    text-align: center;
+    margin-top: 16px;
+    border-radius: 10px;
 }

@@ -1162,6 +1162,7 @@ progress {
   .col-md-4 {
     flex: 0 0 auto;
     width: 33.33333333%;
+    text-align: center;
   }
 
   .col-md-5 {
