@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;500;700&display=swap');
 
 #altera-fonte {
     font-family: 'Montserrat', sans-serif;
@@ -8,10 +8,19 @@ body {
     background-color: #1F2630;
 }
 
+h1 {
+    color: whitesmoke;
+}
+
+p {
+    color: whitesmoke;
+}
+
 hr {
 	text-align: center;
     border: 0;
 	border-top: 1px solid #ffffff;
+    width: 100%;
 }
 
 #navbar-sombra {
@@ -33,13 +42,7 @@ hr {
     color: whitesmoke;
     text-align: justify;
     margin-right: 40px;
-}
-
-#txt-last2 {
-    color: whitesmoke;
-    text-align: justify;
-    margin-top: 60px;
-    margin-left: 40px
+    font-weight: 300;
 }
 
 #titulo-jogadores {
@@ -87,6 +90,7 @@ hr {
 #txt-surgimento {
     color: whitesmoke;
     text-align: justify;
+    font-weight: 300;
 }
 
 #foto-surgimento {
@@ -94,5 +98,24 @@ hr {
 }
 
 #baixo-foto {
+    color: whitesmoke;
+}
+
+#container-fer {
+    margin-top: 40px;
+}
+
+#img-fer {
+    margin-top: 20px;
+}
+
+#titulo-fer{
+    margin-top: 10px;
+    text-align: center;
+    color: whitesmoke;
+}
+
+#fer-id {
+    text-align: center;
     color: whitesmoke;
 }
